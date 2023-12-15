@@ -1,0 +1,11 @@
+name: EasyQuant Script
+
+on:
+  push:
+    branches:[mian]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      -name: Run a one-line script
+      run: echo Hello,github action!
