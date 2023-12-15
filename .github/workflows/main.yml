@@ -22,4 +22,4 @@ jobs:
         pip install ccxt pandas pymongo
 
     - name: Run script
-      run: python your_script.py
+      run: python main.py
